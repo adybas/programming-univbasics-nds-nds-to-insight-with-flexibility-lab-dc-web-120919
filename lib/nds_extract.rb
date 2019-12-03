@@ -95,15 +95,21 @@ def movies_with_directors_set(source)
   #
   # INPUT:
   # * source: An Array of Hashes containing director information including
-  # :name and :movies
+  # :name and :movies [{:name => "Saf", :movies => "d"}]
   #
   # RETURN:
   #
   # Array of Arrays containing all of a director's movies. Each movie will need
-  # to have a :director_name key added to it.
-  result = []
-  [{:name => "Saf", :movies => "d"}]
-  [[]]
+  # to have a :director_name key added to it.   [[]]
+  a_o_a_movies_by_director = []
+  i = 0
+binding.pry
+  while i < source.length do
+    director_info_hash = source[i]
+    
+    
+    i += 1
+  end
   result
 end
 
