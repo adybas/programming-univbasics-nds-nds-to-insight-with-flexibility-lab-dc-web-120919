@@ -88,6 +88,7 @@ def gross_per_studio(collection)
     i += 1
   end
   result
+  binding.pry
 end
 
 def movies_with_directors_set(source)
@@ -101,6 +102,7 @@ def movies_with_directors_set(source)
   #
   # Array of Arrays containing all of a director's movies. Each movie will need
   # to have a :director_name key added to it.
+  
 end
 
 # ----------------    End of Your Code Region --------------------
