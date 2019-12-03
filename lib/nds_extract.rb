@@ -104,6 +104,7 @@ def movies_with_directors_set(source)
   result = []
   [{:name => "Saf", :movies => "d"}]
   [[]]
+  result
 end
 
 # ----------------    End of Your Code Region --------------------
