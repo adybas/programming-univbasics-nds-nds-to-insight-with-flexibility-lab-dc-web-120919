@@ -105,11 +105,11 @@ def movies_with_directors_set(source)
   i = 0
   while i < source.length do
     director_info_hash = source[i]
-
+    director_name = director_info_hash[:name]
 
     i += 1
   end
-  result
+  a_o_a_movies_by_director
 end
 
 # ----------------    End of Your Code Region --------------------
