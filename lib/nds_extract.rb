@@ -106,8 +106,8 @@ def movies_with_directors_set(source)
 binding.pry
   while i < source.length do
     director_info_hash = source[i]
-    
-    
+
+
     i += 1
   end
   result
